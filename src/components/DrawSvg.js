@@ -63,11 +63,9 @@ useLayoutEffect(() => {
  
 
 
-
-  // start positioning of svg drawing
 svg.style.strokeDasharray = length;
 
-  //Hide svg before scrolling start
+
 svg.style.strokeDashoffset = length;
   
   let t1 = gsap.timeline({

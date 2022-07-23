@@ -13,13 +13,13 @@ const Section = styled.section`
   width: 100vw;
   height: 25rem;
   position: relative;
-  border-top: 2px solid ${props => props.theme.text};
+  border-top: 2px solid ${props => props.theme.text}; 
   border-top: 2px solid ${props => props.theme.text};
 
   background-color: ${props => `rgba(${props.theme.textRgba}, 0.9)`};
 
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
 
   overflow: hidden;
@@ -84,7 +84,7 @@ justify-content: flex-end;
   justify-content: center;
 }
 `
-const JoinNow = styled.button`
+const JoiNow = styled.button`
 display: inline-block;
 background-color: ${props => props.theme.body};
 color: ${props => props.theme.text};
@@ -141,9 +141,9 @@ const Banner = () => {
       </ImgContainer>
       <Title>Join the <br /> Streamillonaire DAO</Title>
       <BtnContainer>
-      <JoinNow>
-        Join Now
-      </JoinNow>
+      <JoiNow>
+        <Button text="Join Now" link="https://streamillonaires.io/"/>
+      </JoiNow>
       </BtnContainer>
     </Section>
   );

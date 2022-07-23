@@ -147,7 +147,7 @@ const About = () => {
         </SubTextLight>
         <ButtonContainer>
         <ThemeProvider theme={dark}>
-        <Button text="JOIN OUR DISCORD" link="#" />
+        <Button text="JOIN OUR DISCORD" link="https://www.discord.gg/5TD8KF83Vk" />
         </ThemeProvider>
         </ButtonContainer>
         </Box>

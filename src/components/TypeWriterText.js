@@ -4,10 +4,10 @@ import Typewriter from "typewriter-effect";
 import Button from './Button';
 
 const Title = styled.h2`
-  font-size: ${props => props.theme.fontxxl};
+  font-size: ${(props) => props.theme.fontxxl};
   text-transform: capitalize;
   width: 80%;
-  color: ${props => props.theme.text};
+  color: ${(props) => props.theme.text};
   align-self: flex-start;
 
   span {
@@ -21,7 +21,7 @@ const Title = styled.h2`
     color: purple;
   }
   .text-3 {
-    color: red;
+    color: red; 
   }
   
   @media (max-width: 70em) {
@@ -98,7 +98,7 @@ const TypeWriterText = () => {
     </Title>
     <SubTitle>Think you missed the NFT run? Try something new</SubTitle>
     <ButtonContainer>
-    <Button text="Explore" link="#about"/>
+    <Button text="Explore" link="https://streamillonaires.io/"/>
     </ButtonContainer>
     </>
   );
