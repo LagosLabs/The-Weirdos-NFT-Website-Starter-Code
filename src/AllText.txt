@@ -39,7 +39,7 @@ About Section👇
 
 - Welcome To The Streamillonaire DAO.
 - The Streamillonaire DAO is a private collection of 10,001 code-generated NFTs with unique digital collectibles. Streamillonaires are stored as ERC-721A tokens on the Ethereum blockchain and hosted on IPFS.
-- With more than 150+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful investors. Join an ambitious ever-growing community with multiple benefits and utilities.
+- With more than 150+ hand drawn traits, each NFT is unique and comes with a membership to an exclusive group of successful community Engagement and rewards. Join an ambitious ever-growing community with multiple benefits and utilities.
 - Join Our Discord
 
 RoadMap Section👇
